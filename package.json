@@ -1,0 +1,23 @@
+{
+  "name": "rle-dicom",
+  "version": "1.0.0",
+  "description": "RLE decoder for DICOM images. Taken from https://github.com/pydicom/pydicom/blob/master/pydicom/pixel_data_handlers/rle_handler.py",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnsimbe/rle-dicom.git"
+  },
+  "keywords": [
+    "DICOM",
+    "RLE"
+  ],
+  "author": "Christopher Nsimbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnsimbe/rle-dicom/issues"
+  },
+  "homepage": "https://github.com/cnsimbe/rle-dicom#readme"
+}
