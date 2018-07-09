@@ -1,7 +1,7 @@
 //Taken from
 //https://github.com/pydicom/pydicom/blob/master/pydicom/pixel_data_handlers/rle_handler.py
 
-export class Decoder {
+class Decoder {
 
     /*
 
@@ -140,3 +140,11 @@ export class Decoder {
         return result
     }
 }
+
+/*** Exports ***/
+var moduleType = typeof module;
+if ((moduleType !== 'undefined') && module.exports) {
+    module.exports = Decoder;
+}
+
+var RLEDecoder = RLEDecoder || Decoder
